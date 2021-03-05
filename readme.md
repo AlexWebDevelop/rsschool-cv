@@ -1,1 +1,1 @@
-https://AlexWebDevelop.github.io/gh-pages/
+https://AlexWebDevelop.github.io/rsschool-cv/
