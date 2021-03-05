@@ -11,14 +11,21 @@ html {
 .container {
   max-width: 70vw;
   margin: 0 auto;
-}
-
-.container > div {
-  margin: 10px;
+  padding-bottom: 30px;
 }
 
 pre {
   line-height: 30px;
   background-color: rgb(26, 22, 22);
   color: white;
+  border-radius: 4px;
+}
+
+.me {
+  max-width: 50%;
+  display: inline-block;
+}
+
+.img-block {
+  text-align: center;
 }
