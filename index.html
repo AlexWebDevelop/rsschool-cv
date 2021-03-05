@@ -9,26 +9,43 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="title">CV</h1>
-      <h2 class="subtitle">Name and surname: Volkov Alexander</h2>
-      <div class="contacts">
-        Contacts for communication: <a href="vk.com/id2001">Vk</a>
-      </div>
-      <div class="brief">
-        Brief information about myself: since this task is auto-checkable, I
-        will not write anything)
-      </div>
-      <div class="skills">
-        Skills:
-        <ul>
-          <li>JavaScript</li>
-          <li>SQL</li>
-          <li>Python</li>
-        </ul>
-      </div>
-      <div class="code">
-        Sample code:
-        <pre>
+      <header>
+        <h1 class="title">CV</h1>
+      </header>
+      <main>
+        <section>
+          <h2 class="subtitle">Name and surname</h2>
+          <ul>
+            <li>Volkov Alexander</li>
+          </ul>
+        </section>
+        <section class="brief">
+          <h2>Brief information about myself</h2>
+          <p>This is secret information</p>
+          <div class="img-block">
+            <img class="me" src="memes.jpg" alt="It's me!" title="It's me!" />
+          </div>
+        </section>
+        <section class="contacts">
+          <h2>Contacts for communication:</h2>
+          <ul>
+            <li><a href="https://t.me/alexwlkv">Telegram</a></li>
+          </ul>
+        </section>
+        <section class="skills">
+          <h2>Skills:</h2>
+          <ul>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Google)0)</li>
+          </ul>
+        </section>
+        <section class="code">
+          <h2>Sample code:</h2>
+          <pre>
           function getColumn(notNeededRow, currentColumn) { 
             for (let i = 0; i 7; i++) { if ( i != notNeededRow && (inc[i][currentColumn] == -1 ||
           inc[i][currentColumn] == 1) ) { 
@@ -36,13 +53,18 @@
               } 
             } 
           }</pre
-        >
-      </div>
-      <div class="edu">
-        Education: complete secondary education, at the moment I am studying at
-        RGRTU in my second year.
-      </div>
-      <div class="eng">English language: A2</div>
+          >
+        </section>
+        <section class="edu">
+          <h2>Education</h2>
+          complete secondary education, at the moment I am studying at RGRTU in
+          my second year.
+        </section>
+        <section class="eng">
+          <h2>English language</h2>
+          A2
+        </section>
+      </main>
     </div>
   </body>
 </html>
